@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+
+@media (max-width: 768px) {
+  .container {
+      padding: 10px;
+  }
+
+  .col-8, .col-3 {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+
+  .form-control {
+      font-size: 18px;
+  }
+
+  .btn {
+      width: 100%;
+  }
+}
